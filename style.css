@@ -86,9 +86,10 @@ body {
   right: 20px;
   background: #222;
   color: #fff;
-  padding: 10px 14px;
+  padding: 6px 10px;
   border-radius: 6px;
   z-index: 999;
+  font-size: 13px
 }
 
 section {
