@@ -4,121 +4,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MYTHRA</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Mythra</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <nav>
-    <img src="assets/logo.png" alt="Mythra Logo" />
-    <span>MYTHRA</span>
-  </nav>
+  <div class="top-bar">
+    <img src="logo.png" alt="Mythra Logo" class="logo"/>
+    <span class="project-name">MYTHRA</span>
+  </div>
 
-  <a id="twitter-button" class="floating-button" href="https://x.com/CactusHug_sol" target="_blank">Follow on X</a>
-  <button id="buy-button" class="floating-button" onclick="toggleCA()">Buy Now</button>
-  <div id="ca-popup">CA: DY7dwr57ytdgHYe93478yt1hv3dy5gdxvXXUOxvgjipump</div>
-
-  <header>
-    <h1>MYTHRA</h1>
-    <p>Forged in lore. Backed by belief.</p>
+  <header class="header">
+    <img src="header.jpg" alt="Header Banner" class="header-img"/>
+    <div class="header-text">
+      <h1 class="header-title">MYTHRA</h1>
+      <p class="header-slogan">The Crystal Has Awakened</p>
+    </div>
   </header>
 
-  <div class="section" id="about" data-aos="fade-up">
-    <h2>🔮 About Mythra</h2>
-    <div class="row">
-      <div class="col centered"><div class="col-box">
-        <p>
-          Mythra is more than a token — it's a spark of forgotten power reborn on-chain. 🌌 A relic of ancient prophecy,
-          circulating through the hands of those brave enough to believe in magic again.
-        </p>
-        <p>
-          Holders of Mythra are known as <strong style="color:#e0c2ff">Wielders of the Flame</strong>, bound not by contracts,
-          but by destiny. The charts may move, but the prophecy remains. ✨
-        </p>
-      </div></div>
-    </div>
-  </div>
+  <button class="floating-button left" onclick="window.open('https://x.com/yourtwitter')">Twitter</button>
+  <button class="floating-button right" onclick="toggleCA()">Buy Now</button>
+  <div id="ca-popup" class="ca-popup">CA: 7qxD7sEYSKEY8foKZTpU2Za1CotGoGArKADEasoLpump</div>
 
-  
-<div class="section" id="how-to-buy" data-aos="fade-up">
-  <h2>🛒 How to Buy</h2>
-  <div class="row">
-    <div class="col centered">
-      <div class="col-box"><p><strong style="color:#e0c2ff;">Step 1:</strong> Download and fund a Solana wallet like Phantom or Solflare.</p></div>
-      <div class="col-box"><p><strong style="color:#e0c2ff;">Step 2:</strong> Visit BonkBot or your favorite Solana swap tool.</p></div>
-      <div class="col-box"><p><strong style="color:#e0c2ff;">Step 3:</strong> Tap the “Buy Now” button at the bottom-right to get the CA.</p></div>
-      <div class="col-box"><p><strong style="color:#e0c2ff;">Step 4:</strong> Paste the CA, swap SOL → MYTHRA, and join the prophecy.</p></div>
-      <div class="col-box"><p><strong style="color:#e0c2ff;">Step 5:</strong> You're now a Wielder. 🔥 Hold strong.</p></div>
-    </div>
-  </div>
-</div>
+  <section class="how-to-buy">
+    <h2>How to Buy</h2>
+    <div class="column">1. Get a Solana wallet like Phantom or Backpack 🧙‍♂️</div>
+    <div class="column">2. Buy SOL from an exchange (Binance, Coinbase, etc) 💰</div>
+    <div class="column">3. Transfer SOL to your wallet 🔁</div>
+    <div class="column">4. Use BonkBot or a trusted Solana trading bot 🤖</div>
+    <div class="column">5. Paste the contract address and swap! ⚡</div>
+    <div class="column">6. Hold tight. The prophecy is unfolding. 🌌</div>
+  </section>
 
-
-
-<div class="section" id="tokenomics" data-aos="fade-up">
-  <h2>🔮 The Mythra Circles</h2>
-  <div class="row">
-    <div class="col centered">
-      <div class="col-box">
-        <p>
-          The total Mythra supply was forged into three ancient Circles — bound by runes and sealed in prophecy. Each one holds a distinct role in the unfolding legend.
-        </p>
-        <p>🔥 <strong style="color:#ffa07a;">Flamebound Circle</strong> (90%) — Released to the Prophecy Pool, empowering the chosen Wielders.</p>
-        <p>💧 <strong style="color:#7ec8e3;">Circle of Liquidity</strong> (5%) — Reserved for rune-binding and fluid swaps between realms.</p>
-        <p>🧠 <strong style="color:#dda0dd;">Circle of Lore</strong> (5%) — Entrusted to the Meme Scholars who preserve and spread the tale.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="section" id="roadmap" data-aos="fade-up">
-  <h2>📜 Chronicles of the Prophecy</h2>
-  <div class="row">
-    <div class="col centered">
-      <div class="col-box">
-        <p>📖 <strong style="color:#ffdab9;">Chapter I – The Awakening</strong><br/>
-        The Crystal was summoned. The name "Mythra" whispered across degenerate taverns.</p>
-
-        <p>🔥 <strong style="color:#ffb6c1;">Chapter II – The Spreading Flame</strong><br/>
-        Prophecy reached distant realms. Wielders began to rise. Twitter turned purple.</p>
-
-        <p>🛡️ <strong style="color:#98fb98;">Chapter III – The Meme Guilds Unite</strong><br/>
-        Alliances of frogs, cats, and degen priests gathered under the Mythra flame.</p>
-
-        <p>🌕 <strong style="color:#ffd700;">Chapter IV – The Final Rune</strong><br/>
-        The chart glows. The last Wielder arrives. The spell completes.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="legend" data-aos="fade-up"> data-aos="fade-up">
-    <h2>🌠 The Legend Continues</h2>
-    <div class="row">
-      <div class="col centered"><div class="col-box">
-        <p>
-          In every wallet lies a relic. In every trade, a tale. <strong style="color:#ffc9dd">MYTHRA</strong> isn’t just a token —
-          it’s a sign. A symbol. A spark of something more.
-        </p>
-        <p>
-          Don’t just hold a coin. Fulfill the prophecy. 🧿
-        </p>
-      </div></div>
-    </div>
-  </div>
+  <section class="about">
+    <h2>About</h2>
+    <p>
+      In a forgotten ruin beneath twin moons, the Mythra crystal stirred—an arcane relic untouched for millennia.
+      As traders slept and candles burned low, a hum echoed through the blockchain: Mythra had awakened.
+      This isn’t just a coin. It’s a prophecy. The crystal calls to those who dare.
+      No dev. No team. No promises. Just ancient magic and pure speculation.
+      <br/><br/>
+      Will you heed the call of the shard? 🟣✨
+    </p>
+  </section>
 
   <footer>
-    © 2025 Mythra. All rights reserved.
+    <p>&copy; 2025 Mythra. All rights reserved.</p>
   </footer>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    AOS.init({ duration: 1000 });
-
     function toggleCA() {
-      const ca = document.getElementById("ca-popup");
-      ca.style.display = ca.style.display === "none" ? "block" : "none";
+      var popup = document.getElementById("ca-popup");
+      popup.style.display = popup.style.display === "block" ? "none" : "block";
     }
   </script>
 </body>
